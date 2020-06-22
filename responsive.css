@@ -43,7 +43,7 @@
   
   /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
-    display: block;
+    display: block !important;
   }
   
   .top-wrapper h1 {
