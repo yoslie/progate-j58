@@ -124,7 +124,8 @@ header {
   font-size: 25px;
   padding: 21px 0;
   /* Gantikan property display ke none */
-  display: none !important;
+  visibility: hidden;
+  display: none;
 }
 
 
@@ -207,61 +208,17 @@ footer {
   padding-bottom: 20px;
 }
 
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-  
-  .heading h2 {
-    font-size: 20px;
-  }
+.footer-left {
+  float: left;
 }
 
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
-  
-  footer {
-    text-align: center;
-  }
-  
-  .btn {
-    width: 100%;
-  }
-  
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-  
-  /* Tambahkan CSS untuk header-right */
-  .header-right {
-    display: none;
-  }
-  
-  /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {
+.footer-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.footer-right a {
+    line-height: 45px;
+    padding: 0 20px;
     display: block;
-  }
-  
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
 }
