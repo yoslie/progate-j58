@@ -36,14 +36,13 @@
     text-align: left;
   }
   
-  /* Tambahkan CSS untuk header-right */
   .header-right {
     display: none;
   }
   
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
-    display: block !important;
+    display: block;
+    visibility: visible;
   }
   
   .top-wrapper h1 {
@@ -54,5 +53,14 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+  
+  .footer-left {
+    float: none;
+  }
+  
+  .footer-right {
+    float: none;
+    margin: 0;
   }
 }
