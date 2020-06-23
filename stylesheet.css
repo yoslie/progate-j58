@@ -156,11 +156,12 @@ header {
 
 .lesson-img {
   width: 200px;
+  padding: 10px 10px 10px 10px;
 }
 
 .lesson-icon p {
   position: absolute;
-  top: 40%;
+  top: 75%;
   width: 100%;
   color: white;
 }
