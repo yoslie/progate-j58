@@ -158,6 +158,10 @@ header {
   width: 200px;
   padding: 10px 10px 10px 10px;
 }
+.lesson-img:hover {
+  width: 200px;
+  padding: 0;
+}
 
 .lesson-icon p {
   position: absolute;
